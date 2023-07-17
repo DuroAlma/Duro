@@ -1,0 +1,16 @@
+body{
+    min-height: 75rem;
+    padding-top: 4.5rem;
+}
+
+@media(max-width: 1600px){
+    body{
+        background: linear-gradient(to right, #31f700 0%, #f77700 100%);
+    }
+}
+
+@media(max-width: 800px){
+    body{
+        background: linear-gradient(to right, #00c6f7 0%, #f700a5 100%);
+    }
+}
